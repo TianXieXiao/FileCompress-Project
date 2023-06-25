@@ -1,0 +1,30 @@
+﻿生成启动时间为 2023/6/25 10:41:57。
+     1>项目“C:\Users\13922\Desktop\我的资料\复习代码\Project1-FileCompression\Project1-FileCompression\Project1-FileCompression.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FileCompression.cpp TestFileCompression.cpp
+         TestFileCompression.cpp
+         FileCompression.cpp
+     1>c:\users\13922\desktop\我的资料\复习代码\project1-filecompression\project1-filecompression\huffmantree.hpp(60): error C2678: 二进制“!=”: 没有找到接受“const ByteInfo”类型的左操作数的运算符(或没有可接受的转换)
+                 d:\vs2013\vc\include\system_error(426): 可能是“bool std::operator !=(const std::error_condition &,const std::error_code &) throw()”
+                 d:\vs2013\vc\include\system_error(419): 或       “bool std::operator !=(const std::error_code &,const std::error_condition &) throw()”
+                 d:\vs2013\vc\include\exception(522): 或       “bool std::operator !=(const std::exception_ptr &,std::nullptr_t)”
+                 d:\vs2013\vc\include\exception(517): 或       “bool std::operator !=(std::nullptr_t,const std::exception_ptr &)”
+                 d:\vs2013\vc\include\exception(512): 或       “bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &)”
+                 尝试匹配参数列表“(const ByteInfo, const ByteInfo)”时
+                 c:\users\13922\desktop\我的资料\复习代码\project1-filecompression\project1-filecompression\huffmantree.hpp(52): 编译类 模板 成员函数“void HuffmanTree<ByteInfo>::CreateHuffmanTree(const W [],size_t,const W &)”时
+                 with
+                 [
+                     W=ByteInfo
+                 ]
+                 c:\users\13922\desktop\我的资料\复习代码\project1-filecompression\project1-filecompression\filecompression.cpp(51): 参见对正在编译的函数 模板 实例化“void HuffmanTree<ByteInfo>::CreateHuffmanTree(const W [],size_t,const W &)”的引用
+                 with
+                 [
+                     W=ByteInfo
+                 ]
+                 c:\users\13922\desktop\我的资料\复习代码\project1-filecompression\project1-filecompression\filecompression.cpp(49): 参见对正在编译的类 模板 实例化“HuffmanTree<ByteInfo>”的引用
+         正在生成代码...
+     1>已完成生成项目“C:\Users\13922\Desktop\我的资料\复习代码\Project1-FileCompression\Project1-FileCompression\Project1-FileCompression.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.56
